@@ -1,32 +1,30 @@
+import './styles/index.css'
 import { Routes, Route } from 'react-router-dom';
 
-import Beta from './pages/beta';
+import { Header, Footer } from './components/shared';
 
-import Header from './components/Header';
-import Hero from './components/Hero';
-import Features from './components/Features';
-import About from './components/About';
-import Contact from './components/Contact';
-import Newsletter from './components/Newsletter';
-import Footer from './components/Footer';
+import Home from './pages/Home';
+import About from './pages/About';
+import Beta from './pages/Beta';
+import Clarifi from './pages/Clarifi'
+import Contact from './pages/Contact'
+import Investors from './pages/Investors';
+
+
 
 export default function App() {
   return (
-    <>
+    <div className="app-container">
       <Header />
       <Routes>
-        <Route path="/" element={
-          <>
-            <Hero />
-            <Features />
-            <About />
-            <Contact />
-            <Newsletter />
-          </>
-        } />
+        <Route path="/" element={<Home />} />
+        <Route path='/about' element={<About />} />
         <Route path="/beta" element={<Beta />} />
+        <Route path="/clarifi" element={<Clarifi />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/investors" element={<Investors />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }

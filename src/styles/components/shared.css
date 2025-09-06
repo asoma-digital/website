@@ -1,0 +1,9 @@
+.divider {
+  border: none;
+  height: 1px;
+  border-top: 1px solid var(--contrast-80-neg);
+  height: 1px;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  opacity: 0.3;
+}

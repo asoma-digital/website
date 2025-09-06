@@ -2,7 +2,7 @@ import { useState } from 'react';
 import '../styles/index.css';
 import { supabase } from '../../lib/supabase';
 
-export default function BetaSignupPage() {
+export default function Beta() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
