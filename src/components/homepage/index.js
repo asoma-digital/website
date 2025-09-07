@@ -1,0 +1,6 @@
+export { default as Hero } from './Hero'
+export { default as CoreFeatures } from './CoreFeatures'
+export { default as AboutAsoma } from './AboutAsoma'
+export { default as JoinBeta } from './JoinBeta'
+export { default as Newsletter } from './Newsletter'
+export { default as GetTouch } from './GetTouch'

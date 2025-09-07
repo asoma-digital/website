@@ -6,10 +6,10 @@ export default function Header() {
   const navLinks = [
     { name: 'join beta', path: '/beta' },
     { name: 'home', path: '/'},
-    { name: 'investors', path: '/investors'},
-    { name: 'clarifi', path: '/clarifi' },
-    { name: 'about', path: '/about' },
-    { name: 'contact', path: '/contact' },
+    // { name: 'investors', path: '/investors'},
+    // { name: 'clarifi', path: '/clarifi' },
+    // { name: 'about', path: '/about' },
+    // { name: 'contact', path: '/contact' },
     // { name: 'testing', path: '/testing'}
   ];
 
