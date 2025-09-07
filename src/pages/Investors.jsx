@@ -5,7 +5,7 @@ export default function Investors() {
   return (
     <main className="main">
       <BackgroundBlobs />
-      <p className="stay-connected">for potential clarifi investors</p>
+      <p> for potential clarifi investors ... this page is coming soon </p>
     </main>
   );
 }

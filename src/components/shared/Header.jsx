@@ -10,6 +10,7 @@ export default function Header() {
     { name: 'clarifi', path: '/clarifi' },
     { name: 'about', path: '/about' },
     { name: 'contact', path: '/contact' },
+    // { name: 'testing', path: '/testing'}
   ];
 
   return (

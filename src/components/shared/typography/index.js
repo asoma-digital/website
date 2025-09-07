@@ -1,0 +1,5 @@
+export { default as PageTitle } from './PageTitle.jsx'
+export { default as Heading1 } from './Heading1.jsx'
+export { default as FeaturesTitle } from './FeaturesTitle.jsx'
+export { default as FeaturesDescription } from './FeaturesDescription.jsx'
+export { default as FeaturesLearnMore } from './FeaturesLearnMore.jsx'

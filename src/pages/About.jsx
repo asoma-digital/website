@@ -5,7 +5,7 @@ export default function About() {
   return (
     <main className="main">
       <BackgroundBlobs />
-      <p className="stay-connected">about clarifi</p>
+      <p>about clarifi ... this page is coming soon</p>
     </main>
   );
 }

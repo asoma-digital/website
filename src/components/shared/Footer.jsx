@@ -41,13 +41,13 @@ export default function Footer() {
             <Divider />
             <div className='footer-lower'>
                 <div className="footer-legal">
-                    <p>&copy; 2024 asoma. All rights reserved.</p>
+                    <p>&copy; 2025 asoma. All rights reserved.</p>
                     <p>Privacy Policy</p>
                     <p>Terms of Service</p>
                     <p>Cookie Policy</p>
                 </div>
                 <div>
-                    <p>Made with ❤️ for ADHD students</p>
+                    <p>Made with 💙 for ADHD students</p>
                 </div>
             </div>
         </footer>

@@ -5,7 +5,7 @@ export default function Clarifi() {
   return (
     <main className="main">
       <BackgroundBlobs />
-      <p className="stay-connected">clarifi features</p>
+      <p>clarifi features ... this page is coming soon</p>
     </main>
   );
 }

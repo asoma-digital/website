@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <main className="main">
       <BackgroundBlobs />
-      <p className="stay-connected">contact clarifi</p>
+      <p>contact clarifi ... this page is coming soon</p>
     </main>
   );
 }

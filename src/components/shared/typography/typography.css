@@ -1,0 +1,43 @@
+.page-title{
+  color: var(--primary-90-neg);
+  text-align: center;
+  font-family: "Manrope", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5rem;
+  letter-spacing: -2px;
+}
+
+.heading-1{
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #020817;
+}
+
+.features-title{
+  color: #020817;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.features-description{
+  color: #02081770;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+
+.features-learn-more{
+  color: #0486BE;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 21px;
+}

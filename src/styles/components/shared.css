@@ -7,3 +7,61 @@
   margin-bottom: 2rem;
   opacity: 0.3;
 }
+
+.button {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 36px rgba(4, 134, 190, 0.4);
+}
+
+.button:active {
+  transform: scale(0.97);
+  box-shadow: 0 4px 20px rgba(4, 134, 190, 0.25);
+}
+
+.primary-button{
+  display: flex;
+  padding: 1rem 2rem;
+  width: fit-content;
+  border-radius: 16px;
+  background: linear-gradient(90deg, rgba(4, 134, 190, 1) 0%, rgba(4, 189, 231, 1) 100%);
+  box-shadow: 0px 8px 32px rgba(4, 134, 190, 0.3);
+  border: none;
+  color: white;
+  font-weight: 600;
+  line-height: 1.5rem;
+  font-size: 18px;
+}
+
+.secondary-button{
+  display: flex;
+  padding: 1rem 2rem;
+  width: fit-content;
+  border-radius: 16px;
+  background: transparent;
+  border-width: 2px;
+  box-shadow: inset 0 0 0 2px #02081720;
+  border: none;
+  color: #020817;
+  font-weight: 600;
+  line-height: 1.5rem;
+  font-size: 18px; 
+}
+
+.secondary-button:hover, .secondary-button:active{
+  box-shadow: inset 0 0 0 2px #02081720;
+}
+
+.icon{
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

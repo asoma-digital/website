@@ -9,6 +9,7 @@ import Beta from './pages/Beta';
 import Clarifi from './pages/Clarifi'
 import Contact from './pages/Contact'
 import Investors from './pages/Investors';
+import Testing from './pages/Testing';
 
 
 
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="/clarifi" element={<Clarifi />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/investors" element={<Investors />} />
+        <Route path="/testing" element={<Testing />} />
       </Routes>
       <Footer />
     </div>
