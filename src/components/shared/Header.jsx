@@ -20,7 +20,7 @@ export default function Header() {
         asoma.
       </Link>
 
-      <nav className="nav">
+      <nav className="nav desktop-only" style={{ display:'none'}}>
         {navLinks.map((link) => (
           <Link
             className={`nav-link ${link.name === 'join beta' ? 'join-beta' : ''}`}
@@ -31,6 +31,12 @@ export default function Header() {
           </Link>
         ))}
       </nav>
+      
+      <button className='hamburger'>
+        <span className='bar' style={{backgroundColor: '#6AEAFB'}}/>
+        <span className='bar' style={{backgroundColor: '#04BDE7'}}/>
+        <span className='bar' style={{backgroundColor: '#0486BE'}}/>
+      </button>
 
     </header>
   );
