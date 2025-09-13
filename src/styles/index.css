@@ -2,6 +2,33 @@
 @import './colors.css';
 
 /* Different Spaces */
+:root{
+  --color1: #04cde9;
+  --color2: #E0f4fc;
+  --color3: #04bfe7;
+  --color4: #6aeafb;
+  --color5: #Ffff00;
+  --color6: #0484bc;
+  --black: #000;
+  --white: #fff;
+
+  --gradient1: linear-gradient(90deg, #0484bc 0%, #04bfe7 0%, #6aeafb 100%);
+}
+@media (prefers-color-scheme: dark) {
+  :root{
+    --color1: #18e1fb;
+    --color2: #031820;
+    --color3: #18d2fb;
+    --color4: #048495;
+    --color5: #Ffff00;
+    --color6: #41c3fb;
+    --black: #fff;
+    --white: #000;
+
+    --gradient1: linear-gradient(90deg, #41c3fb 0%, #18d2fb 0%, #048495 100%);
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
