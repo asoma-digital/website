@@ -5,7 +5,7 @@ import { FeaturesTitle, FeaturesDescription, FeaturesLearnMore } from '../../com
 export default function CoreFeatures () {
     return (
       <div className='core-features'>
-        <Heading1 text="core features" />
+        <Heading1 text="complete ADHD support system" />
         <div className="features-cards">
           <div className="features-card">
               {/* <Icon/> */}

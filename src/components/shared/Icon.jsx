@@ -1,9 +1,11 @@
-import { Mail } from 'lucide-react';
+export default function Icon({ icon: IconComponent, color1, color2 }) {
+  const backgroundStyle = color1 && color2
+    ? { background: `linear-gradient(90deg, ${color1} 0%, ${color2} 100%)` }
+    : { background: 'transparent' };
 
-export default function Icon(props) {
   return (
-    <div className="icon" style={{ background: `linear-gradient(90deg, ${props.color1} 0%, ${props.color2} 100%)` }}>
-      <props.icon size={20} color="#FFFFFF" strokeWidth={2} />
+    <div className="icon" style={backgroundStyle}>
+      <IconComponent size={20} color="#FFFFFF" strokeWidth={2} />
     </div>
   );
 }

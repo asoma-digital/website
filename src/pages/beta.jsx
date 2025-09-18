@@ -1,4 +1,4 @@
-import '../styles/index.css';
+import '../styles/pages/beta.css';
 
 import { useState } from 'react';
 import { supabase } from '../../lib/supabase';
@@ -77,7 +77,7 @@ const handleSubmit = async (e) => {
           <>
             <h1 className="text-3xl font-bold mb-4">Join Our Beta Testing Program</h1>
             <p className="mb-6 text-secondaryText">
-              Help shape the future of ADHD-supportive tools. Sign up below to get early access to Clarifi and provide feedback that helps us improve.
+              Help shape the future of ADHD-supportive tools. Sign up below to get early access to clarifi and provide feedback that helps us improve.
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-5">
@@ -120,7 +120,7 @@ const handleSubmit = async (e) => {
               </div>
 
               <div>
-                <label htmlFor="interest" className="block mb-1 font-semibold">Why are you interested in testing Clarifi?</label>
+                <label htmlFor="interest" className="block mb-1 font-semibold">Why are you interested in testing clarifi?</label>
                 <textarea
                   id="interest"
                   name="interest"
@@ -132,7 +132,7 @@ const handleSubmit = async (e) => {
               </div>
 
               <p className="text-xs text-secondaryText">
-                Your info will only be used for the Clarifi beta. You can opt out at any time.
+                Your info will only be used for the clarifi beta. You can opt out at any time.
               </p>
 
               <button
