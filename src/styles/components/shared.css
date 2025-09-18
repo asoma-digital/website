@@ -70,6 +70,16 @@
   justify-content: center;
 }
 
+.icon{
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .colorful-divider{
   width: 120px;
   height: 3px;

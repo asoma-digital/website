@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <Facts />
       {/* <ActionAsoma /> */}
-      {/* <CoreFeatures /> */}
+      <CoreFeatures />
       <AboutAsoma />
       {/* <Testimonials /> */}
       {/* <Connect /> */}

@@ -1,20 +1,13 @@
 import '../../styles/pages/homepage.css'
-import Icon from '../shared/Icon'
-import { FeaturesTitle, FeaturesDescription, FeaturesLearnMore } from '../shared/typography'
+import { FeaturesTitle, FeaturesDescription } from '../shared/typography'
+import Emoji from '../shared/Emoji';
 
-export default function FeaturesCard ({ icon, title, description, color}) {
+export default function FeaturesCard ({ emoji, color1, color2, title, description}) {
     return (
         <div className="features-card">
-            {/* <Icon/> */}
-            <div 
-                className="icon" 
-                style={{background: 'linear-gradient(90deg, #0486BE 0%, #04BDE7 100%)',}}
-            >
-                <Mail size={28} color="#FFFFFF" strokeWidth={2}/>
-            </div>
+            <Emoji color1={color1} color2={color2} emoji={emoji} fontsize="24px"/>
             <FeaturesTitle text={title} />
             <FeaturesDescription text={description} />
-            <FeaturesLearnMore color={color}/>
         </div>
     )
 }
