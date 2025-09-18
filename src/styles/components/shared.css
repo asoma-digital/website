@@ -69,3 +69,11 @@
   align-items: center;
   justify-content: center;
 }
+
+.colorful-divider{
+  width: 120px;
+  height: 3px;
+  border-radius: 16777200px;
+  background: linear-gradient(90deg, #6AEAFB 0%, #04BDE7 50%, #0486BE 100%);
+  margin: 1.25rem;
+}

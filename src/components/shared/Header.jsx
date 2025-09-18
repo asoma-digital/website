@@ -10,11 +10,11 @@ export default function Header() {
   const navLinks = [
     { name: 'join beta', path: '/beta' },
     { name: 'home', path: '/' },
-    { name: 'investors', path: '/investors' },
-    { name: 'product', path: '/product' },
-    { name: 'about', path: '/about' },
-    { name: 'contact', path: '/contact' },
-    { name: 'testing', path: '/testing' }
+    // { name: 'investors', path: '/investors' },
+    // { name: 'product', path: '/product' },
+    // { name: 'about', path: '/about' },
+    // { name: 'contact', path: '/contact' },
+    // { name: 'testing', path: '/testing' }
   ];
 
   const toggleMenu = () => setMenuOpen(prev => !prev);

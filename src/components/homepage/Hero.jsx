@@ -16,7 +16,7 @@ export default function Hero() {
             </div>
             <div className='hero-buttons'>
                 <PrimaryButton buttonText="Join the beta" onClick={() => navigate('/beta')}/>
-                <SecondaryButton buttonText="Learn more" onClick={() => navigate('/about')}/>
+                <SecondaryButton buttonText="Learn more" onClick={() => {const el = document.getElementById('about'); if (el) {el.scrollIntoView({ behavior: 'smooth' });}}}/>
             </div>
         </div>
     );

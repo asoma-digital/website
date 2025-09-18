@@ -11,11 +11,11 @@ export default function Home() {
 
       <Hero />
       <Facts />
-      {/* <ActionAsoma />
-      <CoreFeatures />
+      {/* <ActionAsoma /> */}
+      {/* <CoreFeatures /> */}
       <AboutAsoma />
-      <Testimonials />
-      <Connect /> */}
+      {/* <Testimonials /> */}
+      {/* <Connect /> */}
     </main>
   );
 }
