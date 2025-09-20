@@ -1,9 +1,13 @@
 import '../../styles/pages/homepage.css';
-import { Heading1 } from '../shared/typography';
+import FeatureTabs from './FeaturesTab';
 
 
 export default function ActionAsoma() {
     return (
-        <Heading1>see asoma in action</Heading1>
+        <section className="action-asoma">
+            <p className='action-title'>see asoma in action</p>
+            <p className='action-subtitle'>Explore our key features designed specifically for ADHD students to enhance focus and productivity</p>
+            <FeatureTabs />
+        </section>
     )
 }
